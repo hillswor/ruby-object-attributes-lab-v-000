@@ -8,7 +8,7 @@ class Dog
     @my_dogs_name = the_dogs_name
   end
 
-  def name=(new_name)
-    @name = new_name.strip
+  def name
+    @my_dogs_name
   end
 end
